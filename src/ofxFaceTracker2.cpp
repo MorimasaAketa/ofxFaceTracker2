@@ -21,8 +21,8 @@ ofxFaceTracker2::ofxFaceTracker2()
 #ifdef TARGET_ANDROID
 		,faceDetectorImageSize(160*120*1.3)
 #else
-	 , faceDetectorImageSize(480 * 360)
-	// , faceDetectorImageSize(1280 * 720)
+	// , faceDetectorImageSize(480 * 360)
+	 , faceDetectorImageSize(1280 * 720)
 #endif
 
 {
